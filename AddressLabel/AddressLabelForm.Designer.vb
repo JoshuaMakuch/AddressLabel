@@ -22,19 +22,19 @@ Partial Class AddressLabelForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.DisplayButton = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ExitButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button2
+        'ClearButton
         '
-        Me.Button2.Location = New System.Drawing.Point(671, 379)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(130, 59)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ClearButton.Location = New System.Drawing.Point(671, 379)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(130, 59)
+        Me.ClearButton.TabIndex = 1
+        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'DisplayButton
         '
@@ -45,30 +45,30 @@ Partial Class AddressLabelForm
         Me.DisplayButton.Text = "Display Label"
         Me.DisplayButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'ExitButton
         '
-        Me.Button3.Location = New System.Drawing.Point(817, 379)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(130, 59)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.ExitButton.Location = New System.Drawing.Point(817, 379)
+        Me.ExitButton.Name = "ExitButton"
+        Me.ExitButton.Size = New System.Drawing.Size(130, 59)
+        Me.ExitButton.TabIndex = 3
+        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.UseVisualStyleBackColor = True
         '
         'AddressLabelForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(957, 450)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.DisplayButton)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.ClearButton)
         Me.Name = "AddressLabelForm"
         Me.Text = "AddressLabelForm"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button2 As Button
+    Friend WithEvents ClearButton As Button
     Friend WithEvents DisplayButton As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents ExitButton As Button
 End Class
