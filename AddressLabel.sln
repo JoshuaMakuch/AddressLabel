@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AddressLabel", "AddressLabel\AddressLabel.vbproj", "{F5FADB8C-3CEA-4BB7-BCB1-4C71A2C25A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5FADB8C-3CEA-4BB7-BCB1-4C71A2C25A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FADB8C-3CEA-4BB7-BCB1-4C71A2C25A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FADB8C-3CEA-4BB7-BCB1-4C71A2C25A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FADB8C-3CEA-4BB7-BCB1-4C71A2C25A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5F9D875-BFE4-4BC7-B2DE-A95A31AA5237}
+	EndGlobalSection
+EndGlobal
