@@ -46,25 +46,25 @@ Partial Class AddressLabelForm
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(477, 356)
+        Me.ClearButton.Location = New System.Drawing.Point(477, 344)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(130, 59)
-        Me.ClearButton.TabIndex = 1
+        Me.ClearButton.TabIndex = 2
         Me.ClearButton.Text = "Clear"
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'DisplayButton
         '
-        Me.DisplayButton.Location = New System.Drawing.Point(330, 356)
+        Me.DisplayButton.Location = New System.Drawing.Point(330, 344)
         Me.DisplayButton.Name = "DisplayButton"
         Me.DisplayButton.Size = New System.Drawing.Size(130, 59)
-        Me.DisplayButton.TabIndex = 2
+        Me.DisplayButton.TabIndex = 1
         Me.DisplayButton.Text = "Display Label"
         Me.DisplayButton.UseVisualStyleBackColor = True
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(623, 356)
+        Me.ExitButton.Location = New System.Drawing.Point(623, 344)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(130, 59)
         Me.ExitButton.TabIndex = 3
