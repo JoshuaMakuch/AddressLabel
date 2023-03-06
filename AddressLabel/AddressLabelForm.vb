@@ -17,4 +17,26 @@
         Me.Close()
     End Sub
 
+    'Creats A Tool Tip sub that provides tool tips for each label and button
+    Private Sub AddressLabelForm_Load(sender As Object, e As System.EventArgs) Handles MyBase.Load
+        ' Create the ToolTip and associate with the Form container.
+        Dim toolTip1 As New ToolTip()
+
+        ' Set up the delays for the ToolTip.
+        toolTip1.AutoPopDelay = 5000
+        toolTip1.InitialDelay = 500
+        toolTip1.ReshowDelay = 500
+
+        ' Set up the ToolTip text for the Labels and Buttons.
+        toolTip1.SetToolTip(Me.FirstNameLabel, "The Sender's First Name")
+        toolTip1.SetToolTip(Me.LastNameLabel, "The Sender's Last Name")
+        toolTip1.SetToolTip(Me.StreetAddressLabel, "The Sender's Street Address")
+        toolTip1.SetToolTip(Me.CityLabel, "The Sender's City")
+        toolTip1.SetToolTip(Me.StateLabel, "The Sender's State ie. ID, HI, CA, TX")
+        toolTip1.SetToolTip(Me.ZipLabel, "The Sender's Zip Code")
+        toolTip1.SetToolTip(Me.DisplayButton, "Formats and Displays Users Address")
+        toolTip1.SetToolTip(Me.ClearButton, "Clears The Current Label")
+        toolTip1.SetToolTip(Me.ExitButton, "Exits The Form")
+    End Sub
+
 End Class
