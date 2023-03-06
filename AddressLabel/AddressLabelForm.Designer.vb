@@ -83,6 +83,7 @@ Partial Class AddressLabelForm
         'FirstNameTextBox
         '
         Me.FirstNameTextBox.Location = New System.Drawing.Point(22, 51)
+        Me.FirstNameTextBox.MaxLength = 100
         Me.FirstNameTextBox.Name = "FirstNameTextBox"
         Me.FirstNameTextBox.Size = New System.Drawing.Size(231, 27)
         Me.FirstNameTextBox.TabIndex = 5
@@ -90,6 +91,7 @@ Partial Class AddressLabelForm
         'LastNameTextBox
         '
         Me.LastNameTextBox.Location = New System.Drawing.Point(22, 112)
+        Me.LastNameTextBox.MaxLength = 100
         Me.LastNameTextBox.Name = "LastNameTextBox"
         Me.LastNameTextBox.Size = New System.Drawing.Size(231, 27)
         Me.LastNameTextBox.TabIndex = 7
@@ -97,6 +99,7 @@ Partial Class AddressLabelForm
         'CityTextBox
         '
         Me.CityTextBox.Location = New System.Drawing.Point(22, 236)
+        Me.CityTextBox.MaxLength = 100
         Me.CityTextBox.Name = "CityTextBox"
         Me.CityTextBox.Size = New System.Drawing.Size(231, 27)
         Me.CityTextBox.TabIndex = 11
@@ -113,6 +116,7 @@ Partial Class AddressLabelForm
         'StreetAddressTextBox
         '
         Me.StreetAddressTextBox.Location = New System.Drawing.Point(22, 175)
+        Me.StreetAddressTextBox.MaxLength = 100
         Me.StreetAddressTextBox.Name = "StreetAddressTextBox"
         Me.StreetAddressTextBox.Size = New System.Drawing.Size(231, 27)
         Me.StreetAddressTextBox.TabIndex = 9
@@ -129,6 +133,7 @@ Partial Class AddressLabelForm
         'ZipTextBox
         '
         Me.ZipTextBox.Location = New System.Drawing.Point(22, 360)
+        Me.ZipTextBox.MaxLength = 5
         Me.ZipTextBox.Name = "ZipTextBox"
         Me.ZipTextBox.Size = New System.Drawing.Size(150, 27)
         Me.ZipTextBox.TabIndex = 19
@@ -136,6 +141,7 @@ Partial Class AddressLabelForm
         'StateTextBox
         '
         Me.StateTextBox.Location = New System.Drawing.Point(22, 299)
+        Me.StateTextBox.MaxLength = 2
         Me.StateTextBox.Name = "StateTextBox"
         Me.StateTextBox.Size = New System.Drawing.Size(150, 27)
         Me.StateTextBox.TabIndex = 17

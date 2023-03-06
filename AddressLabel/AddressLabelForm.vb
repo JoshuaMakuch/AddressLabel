@@ -1,4 +1,10 @@
-﻿Public Class AddressLabelForm
+﻿'Joshua Makuch
+'RCET 0265
+'Spring 2023
+'Address Label Program
+'https://github.com/JoshuaMakuch/AddressLabel.git
+
+Public Class AddressLabelForm
 
     'Whenever the display button is pressed it formats all values from the textboxes and outputs a label
     Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
