@@ -201,12 +201,11 @@ Partial Class AddressLabelForm
         'DisplayLabel
         '
         Me.DisplayLabel.AutoSize = True
-        Me.DisplayLabel.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DisplayLabel.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.DisplayLabel.Location = New System.Drawing.Point(17, 51)
         Me.DisplayLabel.Name = "DisplayLabel"
-        Me.DisplayLabel.Size = New System.Drawing.Size(35, 20)
+        Me.DisplayLabel.Size = New System.Drawing.Size(0, 26)
         Me.DisplayLabel.TabIndex = 0
-        Me.DisplayLabel.Text = "Test"
         '
         'AddressLabelForm
         '
