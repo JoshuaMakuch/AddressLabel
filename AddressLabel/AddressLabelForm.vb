@@ -19,7 +19,7 @@ Public Class AddressLabelForm
             DisplayLabel.Text = $"{DisplayLabel.Text}{StreetAddressTextBox.Text}{vbCrLf}"
             DisplayLabel.Text = $"{DisplayLabel.Text}{CityTextBox.Text}, {StateTextBox.Text} {ZipTextBox.Text}"
         Else
-            DisplayLabel.Text = $"Sorry, you must fill out {vbCrLf} at least one field."
+            DisplayLabel.Text = $"Sorry, you must fill out {vbCrLf}at least one field."
         End If
 
     End Sub
@@ -55,7 +55,5 @@ Public Class AddressLabelForm
         toolTip1.SetToolTip(Me.ClearButton, "Clears The Current Label")
         toolTip1.SetToolTip(Me.ExitButton, "Exits The Form")
     End Sub
-
-
 
 End Class
